@@ -31,8 +31,8 @@ CREATE OR REPLACE TABLE secondary_market (
 create stage tmslstage
     url='s3://fsp-project-bucket'
     credentials=(
-        AWS_KEY_ID='AKIAZAFHR2FW3HXS3643'
-        AWS_SECRET_KEY='6PxoIfMXnIQeW20OM2GRqPO5u44twrIM4M7jMUnW'
+        AWS_KEY_ID='******'
+        AWS_SECRET_KEY='*******'
     )
 FILE_FORMAT = (TYPE = CSV);
 
